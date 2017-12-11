@@ -1,0 +1,29 @@
+# I.    Introduction
+We just had two introductory lectures about DEEP LEARNING. In the first lecture, we learned about Tensorflow, how to install it and performed some basic functions on the tensorflow array. In the next class, we learned about linear regression and performed that regression on the different dataset. 
+
+# II.   Objectives.
+Implement the Logistic regression with new data set which is not used in class
+
+# III.	Approaches/Methods
+I have used the approach of logistics regression through an example from tensorflow official website example where the different image of the handwritten person is given as test data and then a new image is given to show which person handwritten is that belongs to from 9 persons.
+
+# IV.	Workflow
+The workflow is defined in the program written with comments to each line
+
+# V.	Datasets
+I have used the dataset from MNIST dataset. It consists of 550000 training and 1 Hundred test images. The dimension of images are 28x28 where each of them shows the handwritten digit from 0 to 9. 
+
+# VI.	Parameters
+I have used these parameters for the logistic regression model
+defining the Parameters
+learning_rate = 0.01
+training_epochs = 30
+batch_size = 90
+display_step = 1
+
+
+# VII.	Evaluation & Discussion
+The evaluation can be seen in the result of the program where the cost function is dropping from 1.7 to 0.33
+
+# VIII.	Conclusion
+I have used an example from the tensorflow.org logistics regression example which contains the dataset from 9 person handwritten numbers 0-9 and then an image is given to find out which person image writing is that.  

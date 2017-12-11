@@ -1,0 +1,37 @@
+I. Introduction
+
+We just had three more lectures about deep learning we learned about the Overall structure of model, w2vec, name scope, Embedding visualization, types of neural networks, activation function, types of activation functions and Text classification with CNN.
+
+II. Objectives.
+
+Implement the Text classification with CNN model with the new data set (minimum 5 classes) which is not used in class.
+
+III.	Approaches/Methods
+
+I have used different datasets for this assignment. I have used the data set for names of animals and drug consumption so that the program needs to find out whether the sentence has the word for the name of the animal and for the name of the drug.
+
+IV.	Workflow
+
+The workflow is defined as the program first get the datasets for each set as in our program it is the name of animal and name of the drug. then it forms the Convolutional Neural Networks for these datasets. That it forms the activation functions and do the visualization of the network through the vector visualization.
+
+V.	Datasets
+
+I have used the dataset for the name of animals and for the name of drugs as the dataset is given by excel sheet of the course website.
+
+VI.	Parameters
+
+I have used these parameters for the Text classification with CNN.
+
+VII.	Evaluation & Discussion
+
+The evaluation can be seen at the end of the program where the loss and accuracy are displaying on the pycharm console. We have divided the vocabulary which is of total 2213 words as 1788 in training program and 198 into the development of the convolutional neural network.
+
+VIII.	Conclusion
+
+I have used the vocabulary of the names of the animals and names of the drugs for development of the convolutional neural network. I have used some of the vocabularies for the training of CNN and then use some of them to develop my CNN. In the end, I have shown the tensorboard graph, tensorboard scalars, tensorboard distribution and tensorboard histogram to show my results for the dataset.
+
+Result Graphs
+
+Py charm Result Tensorboard Graph Tensorboard Scalars Tensorboard Distribution Tensorboard Histogram
+
+IX. Code
